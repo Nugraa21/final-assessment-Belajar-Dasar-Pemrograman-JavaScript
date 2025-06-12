@@ -1,9 +1,13 @@
-# Asesmen menerapkan rekursi
+# Asesmen Recursive - Menghitung Faktorial dan Deret Fibonacci
+Anda diminta untuk membuat dua fungsi menggunakan rekursi di dalam bahasa pemrograman JavaScript:
+1. Fungsi untuk menghitung faktor atau dari sebuah bilangan bulat positif.
+2. Fungsi untuk menghasilkan deret Fibonacci hingga elemen ke-n.
 
-## Instruksi pengerjaan optional-05-recursive
+## Ketentuan
+1. Fungsi harus diimplementasikan menggunakan teknik rekursi.
+2. Kode harus dipecah ke dalam beberapa modul JavaScript. Mohon untuk manfaatkan berkas JavaScript yang sudah tersedia.
 
-### Kerjakan tugas beriku untum menyeleseikan task optional-05-recursive:
-1. Buat berkas `factorial.js` untuk fungsi faktorial rekursif.
-2. Buat berkas `fibonacci.js` untuk fungsi fibonacci rekursif.
-3. Buat berkas `main.js` untuk mendemonstrasikan kedua fungsi.
-4. Tambahkan `package.json` untuk konfigurasi dasar.
+## Informasi lainnya
+1. Untuk memahami Fibonacci, silakan pelajari di: [Bilangan_Fibonacci](https://id.wikipedia.org/wiki/Bilangan_Fibonacci).
+2. Untuk memahami Faktorial, silakan pelajari di: [Faktorial](https://id.wikipedia.org/wiki/Faktorial).
+

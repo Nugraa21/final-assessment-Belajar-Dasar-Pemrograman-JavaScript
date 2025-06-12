@@ -1,8 +1,14 @@
-# Asesmen menulis test dengan cakupan penuh
+# Asesmen menulis kode pengujian secara menyeluruh (full coverage testing)
 
-## Instruksi pengerjaan optional-06-full-coverage-testing
+## Instruksi pengerjaan
 
-### Kerjakan tugas beriku untum menyeleseikan task optional-06-full-coverage-testing:
-1. Buat berkas `index.js` dengan fungsi `divide`.
-2. Buat berkas `index.test.js` untuk unit test dengan cakupan penuh.
-3. Tambahkan `package.json` untuk konfigurasi dasar.
+1. Buka berkas `index.js`.
+2. Pahami kode dari fungsi `sum` yang ada di berkas tersebut.
+3. Buka berkas `index.test.js`.
+4. Tulis kode untuk menguji penggunaan fungsi `sum` dengan skenario yang lengkap.
+
+## Aturan pengerjaan
+
+1. Dilarang untuk mengubah kode yang terdapat di berkas `index.js` dan `package.json`.
+2. Anda hanya boleh memanfaatkan module `node:test` dan `node:assert`; atau `bun:test` untuk melakukan pengujian.
+

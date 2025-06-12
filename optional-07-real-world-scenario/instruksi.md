@@ -1,8 +1,18 @@
-# Asesmen menerapkan skenario dunia nyata
+# Asesmen Penggunaan JavaScript untuk Kasus Nyata: Sistem Pengelolaan Pesanan Restoran
+Anda diminta untuk membuat sebuah sistem sederhana untuk mengelola pesanan di sebuah restoran.
+Sistem ini akan menggunakan bahasa pemrograman JavaScript dan memanfaatkan berbagai konsep yang telah dipelajari.
 
-## Instruksi pengerjaan optional-07-real-world-scenario
+## Fitur yang harus ada
+### Struktur Data untuk Menyimpan Data Pesanan
+- Gunakan Array dan Object untuk menyimpan data pesanan.
+- Setiap pesanan harus memiliki informasi berikut:
+  - ID Pesanan (unik) -> `id`
+  - Nama Pelanggan -> `customerName`
+  - Daftar Item yang Dipesan (Array dari objek item, setiap item memiliki nama dan harga) -> `items` -> `{ name: string, price: number }`
+  - Total Harga Pesanan -> `totalPrice`
+  - Status Pesanan (Menunggu, Diproses, Selesai) -> `status`
 
-### Kerjakan tugas beriku untum menyeleseikan task optional-07-real-world-scenario:
-1. Buat berkas `main.js` untuk logika utama aplikasi sederhana.
-2. Buat berkas `orders.js` untuk manajemen pesanan.
-3. Tambahkan `package.json` untuk konfigurasi dasar.
+## Ketentuan
+1. Kode harus dipecah ke dalam beberapa modul JavaScript. Mohon untuk manfaatkan berkas JavaScript yang sudah tersedia.
+2. Instruksi lebih detail terdapat pada berkas JavaScript masing-masing.
+3. Tidak mengubah kode di dalam berkas `package.json`.

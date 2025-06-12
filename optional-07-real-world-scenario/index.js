@@ -1,1 +1,0 @@
-console.log("This is a placeholder for optional-07-real-world-scenario");

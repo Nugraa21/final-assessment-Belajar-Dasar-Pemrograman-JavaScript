@@ -1,6 +1,14 @@
-export function fibonacci(n) {
-  if (n < 0) return "Error: Input must be non-negative";
-  if (n === 0) return 0;
-  if (n === 1) return 1;
-  return fibonacci(n - 1) + fibonacci(n - 2);
+function fibonacci(n) {
+  if (n === 0) {
+    return [0];
+  } else if (n === 1) {
+    return [0, 1];
+  } else {
+    const array = fibonacci(n - 1);
+    array.push(array[array.length - 1] + array[array.length - 2]);
+    return array;
+  }
 }
+
+// Jangan hapus kode di bawah ini!
+export default fibonacci;
