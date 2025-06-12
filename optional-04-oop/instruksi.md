@@ -8,6 +8,3 @@
 3. Buat berkas `main.js` untuk mendemonstrasikan penggunaan kedua kelas.
 4. Tambahkan `package.json` untuk konfigurasi dasar.
 5. Pastikan ada relasi antara `Inventory` dan `Item`.
-
-### Contoh penggunaan:
-- `new Inventory().addItem(new Item("Book", 10))` harus berhasil.

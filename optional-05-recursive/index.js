@@ -1,2 +1,1 @@
-// Placeholder untuk tugas opsional
 console.log("This is a placeholder for optional-05-recursive");

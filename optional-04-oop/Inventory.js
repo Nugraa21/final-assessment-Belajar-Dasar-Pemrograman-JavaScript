@@ -1,4 +1,4 @@
-class Inventory {
+export class Inventory {
   constructor() {
     this.items = [];
   }
@@ -8,5 +8,4 @@ class Inventory {
   getItems() {
     return this.items;
   }
-};
-module.exports = { Inventory };
+}

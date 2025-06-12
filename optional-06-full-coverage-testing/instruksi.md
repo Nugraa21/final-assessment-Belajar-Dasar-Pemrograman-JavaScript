@@ -6,7 +6,3 @@
 1. Buat berkas `index.js` dengan fungsi `divide`.
 2. Buat berkas `index.test.js` untuk unit test dengan cakupan penuh.
 3. Tambahkan `package.json` untuk konfigurasi dasar.
-
-### Contoh penggunaan:
-- `divide(6, 2)` harus mengembalikan `3`.
-- `divide(5, 0)` harus mengembalikan "Error: Division by zero".

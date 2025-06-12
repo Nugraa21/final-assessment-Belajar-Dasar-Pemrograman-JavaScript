@@ -7,7 +7,3 @@
 2. Buat berkas `fibonacci.js` untuk fungsi fibonacci rekursif.
 3. Buat berkas `main.js` untuk mendemonstrasikan kedua fungsi.
 4. Tambahkan `package.json` untuk konfigurasi dasar.
-
-### Contoh penggunaan:
-- `factorial(5)` harus mengembalikan `120`.
-- `fibonacci(6)` harus mengembalikan `8`.

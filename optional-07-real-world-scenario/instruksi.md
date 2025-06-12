@@ -6,6 +6,3 @@
 1. Buat berkas `main.js` untuk logika utama aplikasi sederhana.
 2. Buat berkas `orders.js` untuk manajemen pesanan.
 3. Tambahkan `package.json` untuk konfigurasi dasar.
-
-### Contoh penggunaan:
-- `placeOrder("Book", 2)` harus menambah pesanan.

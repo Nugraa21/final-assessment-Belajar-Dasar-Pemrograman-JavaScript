@@ -1,5 +1,5 @@
-const { Inventory } = require('./Inventory');
-const { Item } = require('./Item');
+import { Inventory } from './Inventory.js';
+import { Item } from './Item.js';
 
 const inventory = new Inventory();
 inventory.addItem(new Item("Book", 10));

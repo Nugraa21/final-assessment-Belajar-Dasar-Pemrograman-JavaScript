@@ -10,6 +10,6 @@
      2. Menjadi Front-End atau Back-End Developer.
 
 ### Cara mengetahu username Dicoding
-1. Buka halaman pengaturan akun Dicoding dengan klik url https://www.dicoding.com/settings/profile.
+1. Buka halaman pengaturan akun Dicoding dengan klik url https://www.dicoding.com/users/nugra21_ev3h/academies.
 2. Jika belum login, silakan login dengan akun Dicoding Anda.
 3. Anda bisa melihat nama login Anda di kolom Username.

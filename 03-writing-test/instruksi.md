@@ -4,7 +4,7 @@
 
 ### Kerjakan tugas beriku untum menyeleseikan task 03-writing-test:
 1. Buka berkas `index.js` dan tulis fungsi `addNumbers` yang menjumlahkan dua angka.
-2. Buat berkas `index.test.js` untuk menulis unit test menggunakan Node.js.
+2. Buat berkas `index.test.js` untuk menulis unit test menggunakan `node:test`.
 3. Pastikan test mencakup kasus positif dan nol.
 4. Tambahkan `package.json` untuk konfigurasi dasar.
 

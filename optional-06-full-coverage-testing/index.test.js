@@ -1,5 +1,15 @@
-const { divide } = require('./index');
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { divide } from './index.js';
 
-console.log(divide(6, 2) === 3 ? "Test 1 passed" : "Test 1 failed");
-console.log(divide(5, 0) === "Error: Division by zero" ? "Test 2 passed" : "Test 2 failed");
-console.log(divide(-6, -2) === 3 ? "Test 3 passed" : "Test 3 failed");
+test('divide should handle positive numbers', () => {
+  assert.equal(divide(6, 2), 3);
+});
+
+test('divide should handle division by zero', () => {
+  assert.equal(divide(5, 0), "Error: Division by zero");
+});
+
+test('divide should handle negative numbers', () => {
+  assert.equal(divide(-6, -2), 3);
+});

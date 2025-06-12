@@ -1,6 +1,7 @@
 {
   "name": "optional-05-recursive",
   "version": "1.0.0",
+  "type": "module",
   "main": "main.js",
   "scripts": {
     "start": "node main.js"
