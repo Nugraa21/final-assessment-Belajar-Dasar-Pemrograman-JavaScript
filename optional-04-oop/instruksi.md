@@ -3,9 +3,11 @@
 ## Instruksi pengerjaan optional-04-oop
 
 ### Kerjakan tugas beriku untum menyeleseikan task optional-04-oop:
-1. Buka berkas `index.js` dan buat kelas `Animal` dengan properti `name` dan metode `speak`.
-2. Buat kelas turunan `Dog` yang mewarisi `Animal` dan menimpa metode `speak` untuk mengembalikan "Woof!".
-3. Pastikan kedua kelas dapat diinstansiasi.
+1. Buat berkas `Inventory.js` untuk kelas `Inventory`.
+2. Buat berkas `Item.js` untuk kelas `Item`.
+3. Buat berkas `main.js` untuk mendemonstrasikan penggunaan kedua kelas.
+4. Tambahkan `package.json` untuk konfigurasi dasar.
+5. Pastikan ada relasi antara `Inventory` dan `Item`.
 
 ### Contoh penggunaan:
-- `new Dog("Rex").speak()` harus mengembalikan "Woof!".
+- `new Inventory().addItem(new Item("Book", 10))` harus berhasil.

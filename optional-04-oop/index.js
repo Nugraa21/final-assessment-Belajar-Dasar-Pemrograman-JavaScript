@@ -1,14 +1,2 @@
-class Animal {
-  constructor(name) {
-    this.name = name;
-  }
-  speak() {
-    return `${this.name} makes a sound`;
-  }
-};
-
-class Dog extends Animal {
-  speak() {
-    return "Woof!";
-  }
-};
+// Placeholder untuk tugas opsional
+console.log("This is a placeholder for optional-04-oop");

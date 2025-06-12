@@ -3,10 +3,11 @@
 ## Instruksi pengerjaan optional-05-recursive
 
 ### Kerjakan tugas beriku untum menyeleseikan task optional-05-recursive:
-1. Buka berkas `index.js` dan tulis fungsi rekursif `factorial` yang menghitung faktorial suatu angka.
-2. Pastikan fungsi mengembalikan nilai yang benar untuk input 0, 1, dan angka positif.
-3. Tambahkan penanganan error untuk input negatif.
+1. Buat berkas `factorial.js` untuk fungsi faktorial rekursif.
+2. Buat berkas `fibonacci.js` untuk fungsi fibonacci rekursif.
+3. Buat berkas `main.js` untuk mendemonstrasikan kedua fungsi.
+4. Tambahkan `package.json` untuk konfigurasi dasar.
 
 ### Contoh penggunaan:
-- `factorial(5)` harus mengembalikan `120` (5 × 4 × 3 × 2 × 1).
-- `factorial(0)` harus mengembalikan `1`.
+- `factorial(5)` harus mengembalikan `120`.
+- `fibonacci(6)` harus mengembalikan `8`.

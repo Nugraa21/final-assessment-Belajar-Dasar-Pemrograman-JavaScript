@@ -1,0 +1,8 @@
+{
+  "name": "optional-06-full-coverage-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  }
+}

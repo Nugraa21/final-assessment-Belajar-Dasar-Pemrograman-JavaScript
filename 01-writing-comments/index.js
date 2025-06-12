@@ -1,4 +1,4 @@
-// Ludang Prasetyo Nugroho
+// ludangprasetyo
 
 /*
  * Goal tahunan:
